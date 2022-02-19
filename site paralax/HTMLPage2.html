@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        html body {
+            margin: 0;
+            padding: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        body {
+            background-image: url("file:///C:/Users/lucas/Downloads/layered-peaks-haikei.svg");
+        }
+        .container{
+            display:grid;
+            grid-template-columns:3fr 1fr 1fr;
+            grid-template-rows:15vh 85vh;
+        }
+        .header{
+            background-attachment:fixed;
+            display:flex;
+            gap:5PX;
+            grid-row-start:1;
+            grid-row-end:2;
+            
+        }
+        .allmenu{
+            display:flex;
+            justify-content:space-between;
+        }
+        .LOGO {
+            margin-right: 25px;
+        }
+        .imglogo{
+            margin-right:25px;
+            width:150px;
+        }
+        .menu{
+            margin-left:-50px;
+            display:flex;
+            justify-content:space-between;
+            gap:20PX;
+            margin-right:25PX;
+            list-style:none;
+        }
+        .a{
+            text-decoration:none;
+        }
+        .p{
+            color:black;
+            font-size:22px;
+        }
+        .menu2{
+            display:flex;
+        }
+        .main {
+            justify-content:center center;
+            align-items:center;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            background-color: white;
+        }
+        .p3{
+            border:solid 5px black;
+            height:30px;
+            width:250px;
+            margin-left:10px;
+            margin-top:60px;
+        }
+        .textp {
+            font-size:60px;
+           margin-left:120px;
+           margin-top:60px;
+        }
+        .imgl{
+            width:455px;
+            height:85vh;
+        }
+        .footer {
+          
+            background-color: gray;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        .anoher{
+            width:100%;
+            height:100vh;
+            background-color:aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="LOGO">
+
+                <img src="https://th.bing.com/th/id/R.58924cf0afdb64c348902371badd68ce?rik=bYqAKM%2fyUrG4EA&riu=http%3a%2f%2f1000marcas.net%2fwp-content%2fuploads%2f2020%2f10%2fShopify-Logo.jpg&ehk=AgSwuvHzOugNbxb5TejsH7JMvW2mf1A3SmBAURzPxKY%3d&risl=&pid=ImgRaw&r=0" class="imglogo" />
+            </div>
+            <div class="allmenu">
+                <nav>
+                    <ul class="menu">
+                        <li><a class="a" href=""><p class="p">COMECAR</p></a></li>
+                        <li><a class="a" href=""><p class="p">VENDER</p></a></li>
+                        <li><a class="a" href=""><p class="p">PROMOVER</p></a></li>
+                        <li><a class="a" href=""><p class="p">GERENCIAR</p></a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul class="menu2">
+                        <li><a class="a2" href=""><p class="p2>HOME</p></a></li>
+                        <li><a class="a2" href=""><p class="p2">ABOUT US</p></a></li>
+                        <li><a class="a2" href=""><p class="p2">CONTACT US</p></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <h1 class="textp">
+                Abra uma loja virtual,<br />
+                não importa o nicho
+            </h1>
+            <p class="p3" contenteditable="true">digite email</p>
+            <input autocomplete="email" placeholder="Insira seu e-mail" aria-describedby="MessageId_08bf" id="SignupEmail-4dbc" class="marketing-input-button-pair__input marketing-input marketing-input--floating" type="email" name="signup[email]">
+        </main>
+        <footer class="footer">
+            <img class="imgl" src="https://th.bing.com/th/id/R.b70c89d2c63d8b1e9027742ca648fd1b?rik=1FFnoze%2faC1WOA&riu=http%3a%2f%2fcdn.mobilesyrup.com%2fwp-content%2fuploads%2f2017%2f07%2fshopify1.jpg&ehk=rKlCZgbl%2bIePO53YpEtCbt0Az9GNomVtMIU3ABT1%2b4A%3d&risl=&pid=ImgRaw&r=0" />
+        </footer>
+    </div>
+    <div class="anoher">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Rubik+Beastly&display=swap');
+        body {
+            font-family: 'Oswald', sans-serif;
+            margin: 0 0 0 0;
+        }
+        .container {
+            height:680px;
+            display: grid;
+            grid-template-columns: 3fr;
+            grid-template-rows: 15vh 85vh;
+            background-image: url("file:///C:/Users/lucas/Downloads/layered-peaks-haikei%20(1).svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .header{
+            grid-row-start:1;
+            grid-row-end:2;
+            display:flex;
+            justify-content:space-between;
+        }
+        .logo{
+            font-size:3em;
+            margin-top:-20PX;
+            margin-left:40px;
+            
+        }
+        .menu{
+            display:flex;
+            justify-content:space-between;
+            gap:40px;
+            font-size:32px;
+            justify-content:center center;
+            margin-right:60px;
+            margin-top:50px;
+            list-style:none;
+        }
+        .a{
+            text-decoration:none;
+            color:black;
+        }
+        .main{
+         display:flex;
+         justify-content:center center;
+         align-items:center;
+        }
+        .button {
+            margin-top: 500px;
+            margin-left: 1100px;
+            width: 200px;
+            height: 50px;
+            border-radius: 20px;
+            justify-content: center;
+            align-items: center;
+            background-image: url("file:///C:/Users/lucas/Downloads/low-poly-grid-haikei%20(1).svg");
+        }
+        .a2{
+            font-size:22px;
+            text-decoration:none;
+            color:black;
+        }
+        .container2 {
+           height:100vh;
+           width:100h;
+           background-repeat:no-repeat;
+           background-size:cover;
+            background-image: url("file:///C:/Users/lucas/Downloads/stacked-steps-haikei%20(1).svg");
+        }
+        .nd{
+            background:black;
+            height:5px;
+            width:700px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <p>NOSTECH</p>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a class="a" href="">ABOUT US</a></li>
+                    <li><a class="a" href="">PROJECTS</a></li>
+                    <li><a class="a" href="">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="nd"></div>
+        <main class="main">
+
+            <button class="button"><a class="a2" href="">EXPLORE</a></button>
+        </main>
+    </div>
+    <div class="container2">
+
+    </div>
+</body>
+</html>

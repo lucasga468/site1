@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        html body{
+            margin:0;
+            padding:0;
+            perspective:400px;
+           
+        }
+        .contaier{
+            display:grid;
+            grid-template-columns:3fr 1fr;
+            grid-template-rows:20vh 60vh 20vh;
+        }
+        .header{
+            display:flex;
+            position:relative;
+            background-color:red;
+            grid-column-start:1;
+            grid-column-end:3;
+            gap:10px;
+            justify-content:space-between;
+        }
+        .logo{
+            justify-content:center;
+            margin-left:25px;
+            margin-top:50px;
+            font-size:22px;
+        }
+        .menu {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+        }
+        .a{
+            text-decoration:none;
+            
+        }
+        .p{
+            color:black;
+            font-size:32px;
+        }
+        .main {
+            background:radial-gradient(red, black);
+            display: flex;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            gap:75px;
+            perspective:400px;
+        }
+        .img {
+            border: double 5px red;
+            background: black;
+        }
+        .i1{
+            margin-top:10px;
+            border-radius:10%;
+            height:15vh;
+            
+        }
+        .i2 {
+            margin-top: 10px;
+            border-radius: 10%;
+            height: 15vh;
+            transform: translateX();
+        }
+        .i3 {
+            margin-top: 10px;
+            transform: translateX();
+            border-radius: 10%;
+            height: 15vh;
+        }
+        .tex{
+            display:flex;
+            font-size:15px;
+            color:white;
+        }
+        .aside {
+            background-color: purple;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start:2;
+            grid-row-end:4;
+        }
+        .fotter {
+            background-color: blue;
+        }
+        .another{
+            height:600px;
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+    <div class="contaier">
+        <header class="header">
+            <p class="logo">LOGO</p>
+            <nav>
+                <ul class="menu">
+                    <li><a class="a" href=""><p class="p">HOME</p></a></li>
+                    <li><a class="a" href=""><p class="p">ABOUT US</p></a></li>
+                    <li><a class="a" href=""><p class="p">CONTACT US</p></a></li>
+                </ul>
+            </nav>
+            
+        </header>
+        <main class=" main">
+            <div class="img">
+                <img class="i1" src="https://th.bing.com/th/id/OIP.kluLgWwNeiNiMRKtU6GsAgHaKY?pid=ImgDet&rs=1" />
+                <p class="tex">Create complex layouts with ConstraintLayout by adding constraints from each view to other views and guidelines. Then preview your layout on any screen size by selecting one of various device configurations or by simply resizing the preview window.</p>
+            </div>
+            <div class="img">
+                <img class="i2" src="https://th.bing.com/th/id/OIP.kluLgWwNeiNiMRKtU6GsAgHaKY?pid=ImgDet&rs=1" />
+                <p class="tex">Create complex layouts with ConstraintLayout by adding constraints from each view to other views and guidelines. Then preview your layout on any screen size by selecting one of various device configurations or by simply resizing the preview window.</p>
+            </div>
+            <div class="img">
+                <img class="i3" src="https://th.bing.com/th/id/OIP.kluLgWwNeiNiMRKtU6GsAgHaKY?pid=ImgDet&rs=1" />
+                <p class="tex">Create complex layouts with ConstraintLayout by adding constraints from each view to other views and guidelines. Then preview your layout on any screen size by selecting one of various device configurations or by simply resizing the preview window.</p>
+            </div>
+        </main>
+        <aside class="aside">
+
+        </aside>
+        <footer class="fotter">
+
+        </footer>
+    </div>
+    <div class="another">
+        <p></p>
+    </div>
+</body>
+</html>
